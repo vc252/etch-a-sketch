@@ -4,9 +4,24 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    margin: 0px;
+    
 }
 html {
     height: 100%;
+}
+
+h1 {
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 48px;
+    color: aliceblue;
+    text-shadow: 0.1em 0.1em 0.1em #000;
+    letter-spacing: 6px;
 }
 
 .container {
