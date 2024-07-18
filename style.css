@@ -9,6 +9,19 @@ html {
     height: 100%;
 }
 
+.container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    gap: 20px;
+}
+
 .gridContainer {
     width: 600px;
     height: 600px;
