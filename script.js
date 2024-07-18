@@ -20,6 +20,11 @@ colorSelector.addEventListener("input",()=>{
     penColor = document.querySelector("input").value;
 })
 
+const clearButton = document.querySelector("#clear-button");
+clearButton.addEventListener("click",()=>{
+    document.querySelectorAll(".gridBox").forEach((box)=>box.style.backgroundColor = "white");
+})
+
 container.addEventListener("mousemove",(e)=>{
     if (e.target.classList.contains("gridBox") && mousedown) {
         e.target.style.backgroundColor = penColor;
